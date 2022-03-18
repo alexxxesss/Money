@@ -124,10 +124,12 @@ class Money:
             raise TypeError("Валюты, в которую вы хотите конвертировать свои деньги, нет в обменнике")
 
 
-money1 = Money(300, "CZK")
-money2 = Money(324.56, "USD")
-money3 = Money(770.99, "EUR")
+if __name__ == '__main__':
 
-print(money1)
-money1.convert_to_valute("EUR")
-print(money1)
+    money1 = Money(300, "CZK")
+    money2 = Money(324.56, "USD")
+    money3 = Money(770.99, "EUR")
+
+    print(money1)
+    money1.convert_to_valute("EUR")
+    print(money1)
