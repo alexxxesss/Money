@@ -1,31 +1,133 @@
-import json
-import requests
-import re
+from save_data import data, day, month, year
 
 
-URL_API = "https://www.cbr-xml-daily.ru/daily_json.js"
-headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0"}
+class Money:
 
-full_page = requests.get(URL_API).json()  # получили json файл и привели его к словарю
+    def __init__(self, value: float, charcode: str):
+        self.value = value
+        self.charcode = charcode
 
-with open("price", 'w') as f:
-    json.dump(full_page, fp=f, sort_keys=True, indent=4)  # записали данные с сайта ЦБ в формате json в отдельный файл
+    def __str__(self):
+        return f"{self.value} {self.charcode}"
 
-nominal = float(full_page["Valute"]["USD"]["Nominal"])
-value = float(full_page["Valute"]["USD"]["Value"])
+    def __repr__(self):
+        return f"{self.__class__.__name__}({self.value}, {self.charcode})"
 
-date = full_page["Date"]
-name_valute = full_page["Valute"]["USD"]["CharCode"]
+    def __add__(self, add_money):
+        if isinstance(add_money, Money):
+            if self.charcode == add_money.charcode:
+                return Money(round(self.value + add_money.value, 2), self.charcode)
+            else:
+                raise TypeError("Разные валюты")
+        else:
+            return NotImplemented
 
-pattern = re.search(r"(?P<Year>\d{4})-(?P<Month>\d{2})-(?P<Day>\d{2})T(?P<Time>.{8})(?P<GMT>.{6})", date)
-result_date = pattern.groupdict()
+    def __sub__(self, sub_money):
+        if isinstance(sub_money, Money):
+            if self.charcode == sub_money.charcode:
+                return Money(round(self.value - sub_money.value, 2), self.charcode)
+            else:
+                raise TypeError("Разные валюты")
+        else:
+            return NotImplemented
 
-day = result_date["Day"]
-month = result_date["Month"]
-year = result_date["Year"]
-time = result_date["Time"]
-GMT = result_date["GMT"]
+    def __mul__(self, num):
+        if isinstance(num, (int, float)):
+            return Money(round(self.value * num, 2), self.charcode)
+        else:
+            return NotImplemented
 
-print(f'Дата: {day}.{month}.{year} \nВремя: {time}({GMT}) \nКурс 1 {name_valute} = {round(value / nominal, 2)} руб')
+    def __truediv__(self, num):
+        if isinstance(num, (int, float)):
+            return Money(round(self.value / num, 2), self.charcode)
+        else:
+            return NotImplemented
+
+    def __gt__(self, other):
+        if isinstance(other, Money):
+            return self.value > other.value
+        else:
+            return NotImplemented
+
+    def __lt__(self, other):
+        if isinstance(other, Money):
+            return self.value < other.value
+        else:
+            return NotImplemented
+
+    def __ge__(self, other):
+        if isinstance(other, Money):
+            return self.value >= other.value
+        else:
+            return NotImplemented
+
+    def __le__(self, other):
+        if isinstance(other, Money):
+            return self.value <= other.value
+        else:
+            return NotImplemented
+
+    def __eq__(self, other):
+        if isinstance(other, Money):
+            return self.value == other.value
+        else:
+            return NotImplemented
+
+    def __ne__(self, other):
+        if isinstance(other, Money):
+            return self.value != other.value
+        else:
+            return NotImplemented
+
+    def convert_to_usd(self) -> float:
+        if self.charcode == "USD":
+            return self.value
+
+        elif self.charcode in data["Valute"]:
+            value1 = data["Valute"][self.charcode]["Value"] / data["Valute"][self.charcode]["Nominal"]
+            value2 = data["Valute"]["USD"]["Value"]
+            self.value = round(self.value * value1 / value2, 2)
+            self.charcode = "USD"
+            print(f"Конвертация в USD прошла по курсу на {day}.{month}.{year}\n{self.value} {self.charcode}")
+            return self.value
+
+        elif self.charcode == "RUB":
+            self.value = round(self.value / data["Valute"]["USD"]["Value"], 2)
+            self.charcode = "USD"
+            return self.value
+
+        else:
+            raise TypeError("Валюты, которую вы хотите поменять, не принимают в обменнике")
+
+    def convert_to_valute(self, valute: str):
+        if valute == self.charcode:
+            print(f"Деньги находятся уже в той валюте, в которую вы хотите их конвертировать")
+            return None
+
+        elif valute in data["Valute"]:
+            value1 = data["Valute"][self.charcode]["Value"] / data["Valute"][self.charcode]["Nominal"]
+            value2 = data["Valute"][valute]["Value"] / data["Valute"][valute]["Nominal"]
+            self.value = round(self.value * value1 / value2, 2)
+            self.charcode = valute
+            print(f"Конвертация в USD прошла по курсу на {day}.{month}.{year}\n{self.value} {self.charcode}")
+            return self.value
+
+        elif valute == "RUB":
+            value1 = data["Valute"][self.charcode]["Value"]
+            value2 = data["Valute"][self.charcode]["Nominal"]
+            self.value = round(self.value * value1 / value2, 2)
+            self.charcode = valute
+            print(f"Конвертация в USD прошла по курсу на {day}.{month}.{year}\n{self.value} {self.charcode}")
+            return self.value
+
+        else:
+            raise TypeError("Валюты, в которую вы хотите конвертировать свои деньги, нет в обменнике")
 
 
+money1 = Money(300, "CZK")
+money2 = Money(324.56, "USD")
+money3 = Money(770.99, "EUR")
+
+print(money1)
+money1.convert_to_valute("EUR")
+print(money1)

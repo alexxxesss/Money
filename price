@@ -1,8 +1,8 @@
 {
-    "Date": "2022-03-18T11:30:00+03:00",
-    "PreviousDate": "2022-03-17T11:30:00+03:00",
-    "PreviousURL": "//www.cbr-xml-daily.ru/archive/2022/03/17/daily_json.js",
-    "Timestamp": "2022-03-17T23:00:00+03:00",
+    "Date": "2022-03-19T11:30:00+03:00",
+    "PreviousDate": "2022-03-18T11:30:00+03:00",
+    "PreviousURL": "//www.cbr-xml-daily.ru/archive/2022/03/18/daily_json.js",
+    "Timestamp": "2022-03-18T23:00:00+03:00",
     "Valute": {
         "AMD": {
             "CharCode": "AMD",
@@ -10,8 +10,8 @@
             "Name": "\u0410\u0440\u043c\u044f\u043d\u0441\u043a\u0438\u0445 \u0434\u0440\u0430\u043c\u043e\u0432",
             "Nominal": 100,
             "NumCode": "051",
-            "Previous": 22.071,
-            "Value": 21.5142
+            "Previous": 21.5142,
+            "Value": 21.2771
         },
         "AUD": {
             "CharCode": "AUD",
@@ -19,8 +19,8 @@
             "Name": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
             "Nominal": 1,
             "NumCode": "036",
-            "Previous": 78.3702,
-            "Value": 76.9346
+            "Previous": 76.9346,
+            "Value": 76.6025
         },
         "AZN": {
             "CharCode": "AZN",
@@ -28,8 +28,8 @@
             "Name": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0441\u043a\u0438\u0439 \u043c\u0430\u043d\u0430\u0442",
             "Nominal": 1,
             "NumCode": "944",
-            "Previous": 63.7701,
-            "Value": 61.8077
+            "Previous": 61.8077,
+            "Value": 61.3071
         },
         "BGN": {
             "CharCode": "BGN",
@@ -37,8 +37,8 @@
             "Name": "\u0411\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u0438\u0439 \u043b\u0435\u0432",
             "Nominal": 1,
             "NumCode": "975",
-            "Previous": 60.7307,
-            "Value": 59.2566
+            "Previous": 59.2566,
+            "Value": 58.5252
         },
         "BRL": {
             "CharCode": "BRL",
@@ -46,8 +46,8 @@
             "Name": "\u0411\u0440\u0430\u0437\u0438\u043b\u044c\u0441\u043a\u0438\u0439 \u0440\u0435\u0430\u043b",
             "Nominal": 1,
             "NumCode": "986",
-            "Previous": 21.01,
-            "Value": 20.5654
+            "Previous": 20.5654,
+            "Value": 20.5075
         },
         "BYN": {
             "CharCode": "BYN",
@@ -55,8 +55,8 @@
             "Name": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0440\u0443\u0431\u043b\u044c",
             "Nominal": 1,
             "NumCode": "933",
-            "Previous": 32.6353,
-            "Value": 31.7811
+            "Previous": 31.7811,
+            "Value": 31.5237
         },
         "CAD": {
             "CharCode": "CAD",
@@ -64,8 +64,8 @@
             "Name": "\u041a\u0430\u043d\u0430\u0434\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
             "Nominal": 1,
             "NumCode": "124",
-            "Previous": 85.0335,
-            "Value": 82.6638
+            "Previous": 82.6638,
+            "Value": 82.2994
         },
         "CHF": {
             "CharCode": "CHF",
@@ -73,8 +73,8 @@
             "Name": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0441\u043a\u0438\u0439 \u0444\u0440\u0430\u043d\u043a",
             "Nominal": 1,
             "NumCode": "756",
-            "Previous": 114.9001,
-            "Value": 111.55
+            "Previous": 111.55,
+            "Value": 110.9536
         },
         "CNY": {
             "CharCode": "CNY",
@@ -82,8 +82,8 @@
             "Name": "\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439 \u044e\u0430\u043d\u044c",
             "Nominal": 1,
             "NumCode": "156",
-            "Previous": 17.0155,
-            "Value": 16.5039
+            "Previous": 16.5039,
+            "Value": 16.3332
         },
         "CZK": {
             "CharCode": "CZK",
@@ -91,8 +91,8 @@
             "Name": "\u0427\u0435\u0448\u0441\u043a\u0438\u0445 \u043a\u0440\u043e\u043d",
             "Nominal": 10,
             "NumCode": "203",
-            "Previous": 48.098,
-            "Value": 46.8777
+            "Previous": 46.8777,
+            "Value": 46.0894
         },
         "DKK": {
             "CharCode": "DKK",
@@ -100,8 +100,8 @@
             "Name": "\u0414\u0430\u0442\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430",
             "Nominal": 1,
             "NumCode": "208",
-            "Previous": 15.9578,
-            "Value": 15.5729
+            "Previous": 15.5729,
+            "Value": 15.3694
         },
         "EUR": {
             "CharCode": "EUR",
@@ -109,8 +109,8 @@
             "Name": "\u0415\u0432\u0440\u043e",
             "Nominal": 1,
             "NumCode": "978",
-            "Previous": 118.7601,
-            "Value": 115.9311
+            "Previous": 115.9311,
+            "Value": 114.3996
         },
         "GBP": {
             "CharCode": "GBP",
@@ -118,8 +118,8 @@
             "Name": "\u0424\u0443\u043d\u0442 \u0441\u0442\u0435\u0440\u043b\u0438\u043d\u0433\u043e\u0432 \u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u043e\u0433\u043e \u043a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u0430",
             "Nominal": 1,
             "NumCode": "826",
-            "Previous": 141.3646,
-            "Value": 137.3839
+            "Previous": 137.3839,
+            "Value": 136.3024
         },
         "HKD": {
             "CharCode": "HKD",
@@ -127,8 +127,8 @@
             "Name": "\u0413\u043e\u043d\u043a\u043e\u043d\u0433\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
             "Nominal": 1,
             "NumCode": "344",
-            "Previous": 13.8133,
-            "Value": 13.406
+            "Previous": 13.406,
+            "Value": 13.2903
         },
         "HUF": {
             "CharCode": "HUF",
@@ -136,8 +136,8 @@
             "Name": "\u0412\u0435\u043d\u0433\u0435\u0440\u0441\u043a\u0438\u0445 \u0444\u043e\u0440\u0438\u043d\u0442\u043e\u0432",
             "Nominal": 100,
             "NumCode": "348",
-            "Previous": 32.0003,
-            "Value": 31.1491
+            "Previous": 31.1491,
+            "Value": 30.4266
         },
         "INR": {
             "CharCode": "INR",
@@ -145,8 +145,8 @@
             "Name": "\u0418\u043d\u0434\u0438\u0439\u0441\u043a\u0438\u0445 \u0440\u0443\u043f\u0438\u0439",
             "Nominal": 10,
             "NumCode": "356",
-            "Previous": 14.168,
-            "Value": 13.8249
+            "Previous": 13.8249,
+            "Value": 13.7131
         },
         "JPY": {
             "CharCode": "JPY",
@@ -154,8 +154,8 @@
             "Name": "\u042f\u043f\u043e\u043d\u0441\u043a\u0438\u0445 \u0438\u0435\u043d",
             "Nominal": 100,
             "NumCode": "392",
-            "Previous": 91.3567,
-            "Value": 88.2128
+            "Previous": 88.2128,
+            "Value": 87.0878
         },
         "KGS": {
             "CharCode": "KGS",
@@ -163,8 +163,8 @@
             "Name": "\u041a\u0438\u0440\u0433\u0438\u0437\u0441\u043a\u0438\u0445 \u0441\u043e\u043c\u043e\u0432",
             "Nominal": 10,
             "NumCode": "417",
-            "Previous": 10.3915,
-            "Value": 10.0406
+            "Previous": 10.0406,
+            "Value": 10.0979
         },
         "KRW": {
             "CharCode": "KRW",
@@ -172,8 +172,8 @@
             "Name": "\u0412\u043e\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u041a\u043e\u0440\u0435\u044f",
             "Nominal": 1000,
             "NumCode": "410",
-            "Previous": 87.442,
-            "Value": 86.3023
+            "Previous": 86.3023,
+            "Value": 86.0355
         },
         "KZT": {
             "CharCode": "KZT",
@@ -181,8 +181,8 @@
             "Name": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0441\u043a\u0438\u0445 \u0442\u0435\u043d\u0433\u0435",
             "Nominal": 100,
             "NumCode": "398",
-            "Previous": 21.2006,
-            "Value": 20.6141
+            "Previous": 20.6141,
+            "Value": 20.4893
         },
         "MDL": {
             "CharCode": "MDL",
@@ -190,8 +190,8 @@
             "Name": "\u041c\u043e\u043b\u0434\u0430\u0432\u0441\u043a\u0438\u0445 \u043b\u0435\u0435\u0432",
             "Nominal": 10,
             "NumCode": "498",
-            "Previous": 58.5807,
-            "Value": 56.8028
+            "Previous": 56.8028,
+            "Value": 56.3351
         },
         "NOK": {
             "CharCode": "NOK",
@@ -199,8 +199,8 @@
             "Name": "\u041d\u043e\u0440\u0432\u0435\u0436\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430",
             "Nominal": 1,
             "NumCode": "578",
-            "Previous": 12.1311,
-            "Value": 11.8646
+            "Previous": 11.8646,
+            "Value": 11.8136
         },
         "PLN": {
             "CharCode": "PLN",
@@ -208,8 +208,8 @@
             "Name": "\u041f\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u0437\u043b\u043e\u0442\u044b\u0439",
             "Nominal": 1,
             "NumCode": "985",
-            "Previous": 25.3411,
-            "Value": 24.7418
+            "Previous": 24.7418,
+            "Value": 24.2505
         },
         "RON": {
             "CharCode": "RON",
@@ -217,8 +217,8 @@
             "Name": "\u0420\u0443\u043c\u044b\u043d\u0441\u043a\u0438\u0439 \u043b\u0435\u0439",
             "Nominal": 1,
             "NumCode": "946",
-            "Previous": 24.0046,
-            "Value": 23.435
+            "Previous": 23.435,
+            "Value": 23.1195
         },
         "SEK": {
             "CharCode": "SEK",
@@ -226,8 +226,8 @@
             "Name": "\u0428\u0432\u0435\u0434\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430",
             "Nominal": 1,
             "NumCode": "752",
-            "Previous": 11.399,
-            "Value": 11.086
+            "Previous": 11.086,
+            "Value": 10.9645
         },
         "SGD": {
             "CharCode": "SGD",
@@ -235,8 +235,8 @@
             "Name": "\u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
             "Nominal": 1,
             "NumCode": "702",
-            "Previous": 79.3742,
-            "Value": 77.3212
+            "Previous": 77.3212,
+            "Value": 76.5313
         },
         "TJS": {
             "CharCode": "TJS",
@@ -244,8 +244,8 @@
             "Name": "\u0422\u0430\u0434\u0436\u0438\u043a\u0441\u043a\u0438\u0445 \u0441\u043e\u043c\u043e\u043d\u0438",
             "Nominal": 10,
             "NumCode": "972",
-            "Previous": 89.1262,
-            "Value": 91.432
+            "Previous": 91.432,
+            "Value": 89.0209
         },
         "TMT": {
             "CharCode": "TMT",
@@ -253,8 +253,8 @@
             "Name": "\u041d\u043e\u0432\u044b\u0439 \u0442\u0443\u0440\u043a\u043c\u0435\u043d\u0441\u043a\u0438\u0439 \u043c\u0430\u043d\u0430\u0442",
             "Nominal": 1,
             "NumCode": "934",
-            "Previous": 30.872,
-            "Value": 29.9432
+            "Previous": 29.9432,
+            "Value": 29.7007
         },
         "TRY": {
             "CharCode": "TRY",
@@ -262,8 +262,8 @@
             "Name": "\u0422\u0443\u0440\u0435\u0446\u043a\u0438\u0445 \u043b\u0438\u0440",
             "Nominal": 10,
             "NumCode": "949",
-            "Previous": 73.4309,
-            "Value": 71.0257
+            "Previous": 71.0257,
+            "Value": 70.1623
         },
         "UAH": {
             "CharCode": "UAH",
@@ -271,8 +271,8 @@
             "Name": "\u0423\u043a\u0440\u0430\u0438\u043d\u0441\u043a\u0438\u0445 \u0433\u0440\u0438\u0432\u0435\u043d",
             "Nominal": 10,
             "NumCode": "980",
-            "Previous": 35.8082,
-            "Value": 34.7309
+            "Previous": 34.7309,
+            "Value": 35.354
         },
         "USD": {
             "CharCode": "USD",
@@ -280,8 +280,8 @@
             "Name": "\u0414\u043e\u043b\u043b\u0430\u0440 \u0421\u0428\u0410",
             "Nominal": 1,
             "NumCode": "840",
-            "Previous": 108.0521,
-            "Value": 104.8012
+            "Previous": 104.8012,
+            "Value": 103.9524
         },
         "UZS": {
             "CharCode": "UZS",
@@ -289,8 +289,8 @@
             "Name": "\u0423\u0437\u0431\u0435\u043a\u0441\u043a\u0438\u0445 \u0441\u0443\u043c\u043e\u0432",
             "Nominal": 10000,
             "NumCode": "860",
-            "Previous": 98.5216,
-            "Value": 92.535
+            "Previous": 92.535,
+            "Value": 91.7873
         },
         "XDR": {
             "CharCode": "XDR",
@@ -298,8 +298,8 @@
             "Name": "\u0421\u0414\u0420 (\u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0430\u0432\u0430 \u0437\u0430\u0438\u043c\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u0438\u044f)",
             "Nominal": 1,
             "NumCode": "960",
-            "Previous": 149.0395,
-            "Value": 144.9663
+            "Previous": 144.9663,
+            "Value": 143.5811
         },
         "ZAR": {
             "CharCode": "ZAR",
@@ -307,8 +307,8 @@
             "Name": "\u042e\u0436\u043d\u043e\u0430\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0445 \u0440\u044d\u043d\u0434\u043e\u0432",
             "Nominal": 10,
             "NumCode": "710",
-            "Previous": 71.7849,
-            "Value": 70.1082
+            "Previous": 70.1082,
+            "Value": 69.1716
         }
     }
 }
