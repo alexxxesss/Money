@@ -69,7 +69,7 @@ class Money:
 
     def __gt__(self, other: "Money"):
         if isinstance(other, Money):
-                return self.value > other.value
+            return self.value > other.value
         else:
             return NotImplemented
 
